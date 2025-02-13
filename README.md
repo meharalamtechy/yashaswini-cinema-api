@@ -35,13 +35,13 @@ npm run dev
 ## API for creating the Cinema
 - End Points /api/cinema
 - Req Body: 
-**{
+- {
     "cinemaName": "IJKL",
     "cinemaId": "C",
     "address": "Chandigarh",
     "totalSeats": 24,
     "eachRowCapacity":5
-**}
+- }
 
 Res:
 -Returns the status code 201 and cinemaId as response  
